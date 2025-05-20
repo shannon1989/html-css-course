@@ -1,0 +1,14 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;   /* 去掉p标签自带的Margin-外边距*/
+}
+
+body {
+    margin:0;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 24px;
+    background-color: rgb(250, 250, 250);
+    font-size: 14px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;  /* 属性的传承，文本属性从外层容器向内层容器传递 */
+}
